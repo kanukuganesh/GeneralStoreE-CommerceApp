@@ -1,0 +1,10 @@
+{
+  "description": "Offers a seamless general store shopping experience with a customer mobile app for browsing and ordering plus an admin dashboard for inventory and order management.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
