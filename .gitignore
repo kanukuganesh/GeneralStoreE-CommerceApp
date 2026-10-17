@@ -19,3 +19,7 @@ logs/
 # beside it.
 /.plugins/
 /.opencode-skills/
+
+# Signing secrets — never commit
+key.properties
+*.jks

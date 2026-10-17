@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">General Store</string>
+    <string name="title_activity_main">General Store</string>
+    <string name="package_name">com.kanukuganesh.generalstore</string>
+    <string name="custom_url_scheme">com.kanukuganesh.generalstore</string>
+</resources>

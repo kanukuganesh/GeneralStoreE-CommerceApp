@@ -1,0 +1,15 @@
+# Supabase CLI project config (used by `supabase functions deploy`).
+project_id = "greeno"
+
+# The two shopper-facing functions must only run for signed-in users — the
+# functions ALSO check the JWT themselves via requireUser().
+[functions.razorpay-create-order]
+verify_jwt = true
+
+[functions.razorpay-verify]
+verify_jwt = true
+
+# Razorpay's servers call this one; they send no Supabase JWT, so the platform
+# check must be off (the function verifies Razorpay's own HMAC signature).
+[functions.razorpay-webhook]
+verify_jwt = false
