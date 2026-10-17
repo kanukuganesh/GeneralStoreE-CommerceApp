@@ -40,8 +40,9 @@ We do **not** sell your personal data. We do **not** show third‑party advertis
 - We do **not** collect device advertising IDs, contact lists, photos, files, SMS, or call logs.
 
 ### 2.4 Payments
-- Payments are made through **UPI apps** (Google Pay, PhonePe, Paytm, etc.) installed on your device, or by **Cash on Delivery**.
-- The App **does not collect, store or process** your card number, bank account, UPI PIN or any payment credentials. Payment happens entirely inside your chosen UPI app / in cash.
+- Payments are made through **Razorpay** (UPI, cards, netbanking and wallets) opened securely inside the app, or by **Cash on Delivery**.
+- Card numbers, bank details and UPI PINs are entered **only inside Razorpay's secure checkout** — the App **does not collect, store or process** any payment credentials.
+- The App receives only the payment's confirmation from Razorpay: transaction (payment) ID, order ID, status and — for UPI — the payer's UPI ID, used to match payments to orders.
 
 ---
 
@@ -71,6 +72,7 @@ We share **only the minimum necessary** with service providers that help run the
 | Provider | Purpose | Data shared |
 |----------|---------|-------------|
 | **Supabase** | Cloud database & login | Account, addresses, orders (stored securely) |
+| **Razorpay** | Payment processing (UPI, cards, netbanking) | Amount, order ID, and payment details you enter in Razorpay's checkout (handled entirely by Razorpay under its own privacy policy) |
 | **OpenStreetMap / Nominatim** | Reverse‑geocoding your GPS coordinates into a readable address | Coordinates only (sent when you use the address/map feature) |
 | **OpenStreetMap tiles (Leaflet)** | Displaying the address map | Map requests (standard map tile usage) |
 
@@ -118,7 +120,7 @@ We may update this policy from time to time. The "Last updated" date at the top 
 For questions, requests or concerns about privacy or your data, contact:
 
 - **Developer:** Kanuku Ganesh
-- **Email:** *(add your contact email here before publishing)*
+- **Contact:** via the [GitHub repository](https://github.com/kanukuganesh/GeneralStoreE-CommerceApp) (issues)
 - **App package:** `com.kanukuganesh.generalstore`
 
 ---
